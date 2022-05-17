@@ -5,16 +5,11 @@
   Sensive Blog - Contact
 {% endblock %}
 
-{% block header_menu_area %}
-  <li class="nav-item"><a class="nav-link" href="/" style="color:#3a414e">Home</a></li>
-  <li class="nav-item active"><a class="nav-link" href="/contact" style="color:#3a414e">Contact</a></li>
-{% endblock %}
-
 {% block hero_banner_start %}
   <h1>Contact Us</h1>
   <nav aria-label="breadcrumb" class="banner-breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
       <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
     </ol>
   </nav>

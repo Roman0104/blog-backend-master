@@ -5,11 +5,6 @@
   Sensive Blog - Home
 {% endblock %}
 
-{% block header_menu_area %}
-  <li class="nav-item active"><a class="nav-link" href="/" style="color:#3a414e">Home</a></li>
-  <li class="nav-item"><a class="nav-link" href="/contact" style="color:#3a414e">Contact</a></li>
-{% endblock %}
-
 {% block hero_banner_start %}
   <h3>Tours &amp; Travels</h3>
   <h1>Amazing Places on earth</h1>
@@ -60,7 +55,7 @@
                   <ul class="thumb-info" style="max-width: 550px;">
                     <li><a href="#"><i class="ti-user"></i>{{ post.author }}</a></li>
                     <li><a href="#"><i class="ti-notepad"></i>{{ post.published_at }}</a></li>
-                    <li><a href="#"><i class="ti-themify-favicon"></i>{{ post.comments_amount  }}</a></li>
+                    <li><a href="#"><i class="ti-themify-favicon"></i>{{ post.comments_amount }} Comments</a></li>
                   </ul>
                 </div>
                 <div class="details mt-20">
